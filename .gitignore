@@ -9,4 +9,5 @@ target/*
 /target
 .sts4-cache/
 .vscode
+ignorefile.html
 _site/
