@@ -3,13 +3,13 @@
 
 <body>
 
-  <h2>Find Old Owners</h2>
+  <h2>New Owner</h2>
   <form th:object="${owner}" class="form-horizontal" id="add-owner-form" method="post">
     <div class="form-group has-feedback">
       <input
         th:replace="~{fragments/inputField :: input ('Good Name', 'firstName', 'text')}" />
       <input
-        th:replace="~{fragments/inputField :: input ('Surname', 'lastName', 'text')}" />
+        th:replace="~{fragments/inputField :: input ('Last Name', 'lastName', 'text')}" />
       <input
         th:replace="~{fragments/inputField :: input ('Address', 'address', 'text')}" />
       <input
