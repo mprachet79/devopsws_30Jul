@@ -3,8 +3,8 @@
 
 <body>
 
-  <h2>Owner</h2>
-  <form th:object="${Create owner}" class="form-horizontal" id="add-owner-form" method="post">
+  <h2>New Owner</h2>
+  <form th:object="${owner}" class="form-horizontal" id="add-owner-form" method="post">
     <div class="form-group has-feedback">
       <input
         th:replace="~{fragments/inputField :: input ('First Name', 'firstName', 'text')}" />
