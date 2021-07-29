@@ -8,6 +8,7 @@ target/*
 *.iml
 /target
 .sts4-cache/
-.vscode
+.vscode/*
+docker-compose.yml
 ignorefile.html
 _site/
