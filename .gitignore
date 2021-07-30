@@ -9,6 +9,5 @@ target/*
 /target
 .sts4-cache/
 .vscode/*
-docker-compose.yml
 ignorefile.html
 _site/
